@@ -74,7 +74,7 @@ function response_index(request, response) {
 function write_index(request, response) {
   var msg = "※何かメッセージを書いてください";
   var content = ejs.render(index_page, {
-    title: 'index',
+    title: 'Index',
     content: msg,
     data: message_data,
     filename: 'data_item',
